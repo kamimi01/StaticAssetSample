@@ -1,0 +1,17 @@
+{
+  "name": "StaticAssetSample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kamimi01/StaticAssetSample.git",
+  "author": "mika.urakawa <awakaru0122@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "local": "npx nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
