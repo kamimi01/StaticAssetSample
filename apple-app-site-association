@@ -1,0 +1,13 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "95L82PNXV3.com.kamimi.WebViewAutoCompletion",
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    }
+}
