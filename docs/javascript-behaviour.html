@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebViewでJavaScriptの実行されるページを表示するときのテスト用</title>
+    <script>
+        function showAlert() {
+            alert("アラートダイアログを表示した");
+        }
+
+        function showConfirm() {
+            window.confirm("確認ダイアログを表示しましたか？");
+        }
+
+        function showPrompt() {
+            window.prompt("プロンプトに何か入力してください");
+        }
+    </script>
+</head>
+<body>
+    <p><button onclick="showAlert()">アラートダイアログを表示</button></p>
+    <br>
+
+    <p><button onclick="showConfirm()">確認ダイアログを表示</button></p>
+    <br>
+
+    <p><button onclick="showPrompt()">プロンプトを表示</button></p>
+</body>
+</html>
